@@ -1,35 +1,23 @@
 body {
   font-family: "Nunito Sans";
-  background-color: rgb(220, 218, 214);
-  background-image: url(pp.jpg);
-  background-repeat: no-repeat, repeat;
-  background-size: 1000px;
-  background-position:center;
+  background-color: rgb(255, 253, 253);
+  background-image: url(lado1arriba.png) ,url(lado2arriba.png),url(plant2abajo.png),url(plant1abajo.png);
+  background-position: left top,right top,right bottom,left bottom;
+  background-repeat: no-repeat, no-repeat,no-repeat,no-repeat;
+  background-size: 500px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 
-.tilted-image1{
-  transform: rotate(340deg);
-  width: 30%;
-  margin-right: auto;
-  display: block;
-  padding-right: 1000px;
-}
 
-.tilted-image2{
-  transform: rotate(12deg);
-  width: 50%;
-  margin-left: auto;
+img{
   display: block;
-  padding-left: 12px;
-}
-
-.pin{
-  transform: rotate(12deg);
-  width: 10%;
-  margin-left: auto;
-  display: block;
-  padding-left: px;
+  margin: auto;
+  margin-top: 90px;
+  margin-bottom: 0px;
+  position: relative;
+  box-shadow: 0 1px 100px #bfa38e;
 }
 
 
@@ -37,12 +25,14 @@ body {
   color: rgb(0, 0, 0);
 }
 
-.center,p{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.center,p,a{
+  margin-top: 90px;
   text-align: center;
+  font-size: 18px;
+  color: rgb(122, 115, 115);
+  text-shadow: 0.07em 0.07em 0.05em rgb(83, 129, 87);
 }
+
 
 
 .side{
@@ -50,52 +40,48 @@ body {
   padding: 0;
 }
 
-ul > li{
-  color: rgb(17, 17, 17);
-  max-width: 500px;
-  font-size: 20px;
-  rotate: (20deg);
-}
-
-div.a{
-  width: 40px;
-  height: 100px;
-  transform: rotate(340deg);
-  font-size: 10px;
-  text-align: 90px;
-  font-weight: 400;
-  
-}
-
 br{
   width: 20px;
 }
 
-h1{
-  font-family: "Gloria Hallelujah", cursive;
-  font-weight: 400;
-  font-style: normal;
+
+h3{
+  background-image: url(rayas.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
 }
 
-p,ul,h2{
-  font-family: "Gloria Hallelujah", cursive;
-  font-weight: 400;
-  font-style: normal;
-
-}
-
-.verse{
-  font-family: "Gloria Hallelujah", cursive;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 23px;
+.audio{
+  background-color:rgb(241, 243, 244);
+  box-shadow: 0 1px 100px #c89a9d;
 
 }
 
 
-
-h3,h1,h2{
+h2{
   display: flex;
   justify-content: center;
   align-items: center;
+  color: rgb(124, 155, 139);
+}
+h1{
+  background-image: url(tape2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-size: 290px;
+  
+}
+
+.font {
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-size: 23px;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }

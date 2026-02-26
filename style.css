@@ -21,24 +21,21 @@ img{
 }
 
 
-#title {
-  color: rgb(0, 0, 0);
-}
 
-.center,p,a{
-  margin-top: 90px;
+p,a{
+  margin-top: 20px;
+  margin-bottom: 50px;
   text-align: center;
   font-size: 18px;
   color: rgb(122, 115, 115);
   text-shadow: 0.07em 0.07em 0.05em rgb(83, 129, 87);
+
 }
 
-
-
-.side{
-  margin: 0;
-  padding: 0;
+.center{
+  margin-top: 80px;
 }
+
 
 br{
   width: 20px;
@@ -50,6 +47,7 @@ h3{
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
+  color: rgb(92, 92, 92);
 }
 
 .audio{
@@ -58,12 +56,24 @@ h3{
 
 }
 
+ul > li{
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 13px;
+
+}
+
 
 h2{
+  background-image: url(tape2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: rgb(124, 155, 139);
+  color: rgb(90, 90, 90);
+
 }
 h1{
   background-image: url(tape2.png);

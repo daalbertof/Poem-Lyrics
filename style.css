@@ -1,7 +1,7 @@
 body {
   font-family: "Nunito Sans";
   background-color: rgb(255, 253, 253);
-  background-image: url(lado1arriba.png) ,url(lado2arriba.png),url(plant2abajo.png),url(plant1abajo.png);
+  background-image: url(pabajoD.png) ,url(arribaderecha.png),url(pabajo-left.png),url(plant3.png);
   background-position: left top,right top,right bottom,left bottom;
   background-repeat: no-repeat, no-repeat,no-repeat,no-repeat;
   background-size: 500px;
@@ -28,9 +28,10 @@ p,a{
   text-align: center;
   font-size: 18px;
   color: rgb(122, 115, 115);
-  text-shadow: 0.07em 0.07em 0.05em rgb(83, 129, 87);
-
+  text-shadow: 0.02em 0.01em 0.05em rgb(83, 129, 87);
 }
+
+
 
 .center{
   margin-top: 80px;
